@@ -28,14 +28,10 @@ module.exports = function(environment) {
       description: 'Balitang PH',
       coverImage: '/images/blog-cover.jpg',
 
-      navigation: [{
+      navigation: {
         label: 'Home',
         route: 'index'
-      }, {
-        label: 'Built by Balitang PH',
-        route: 'page',
-        id: 'chris-manson'
-      }]
+      
     },
 
     'responsive-image': {
