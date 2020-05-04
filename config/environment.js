@@ -24,15 +24,15 @@ module.exports = function(environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Balitang PH',
+      description: 'Balitang PH',
       coverImage: '/images/blog-cover.jpg',
 
       navigation: [{
         label: 'Home',
         route: 'index'
       }, {
-        label: 'Built by Chris Manson',
+        label: 'Built by Balitang PH',
         route: 'page',
         id: 'chris-manson'
       }]
